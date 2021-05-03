@@ -134,6 +134,14 @@
     color: #202124;
 }
 
+#result-stats {
+    color: #70757a;
+    font-size: 14px;
+    line-height: 43px;
+    font-family: Product Sans,arial,sans-serif;
+    margin-left: 179px;
+}
+
 .material-icons {
     vertical-align: middle;
 }
