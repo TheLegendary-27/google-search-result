@@ -74,6 +74,11 @@
     text-align: center;
 }
 
+#sign-in:hover {
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66,133,244 / 30%), 0 1px 3px 1px rgb(66, 133, 244 / 15%);
+}
+
 #nav-div {
     height: 58px;
     display: flex;
@@ -149,6 +154,99 @@
 .material-icons-outlined {
     vertical-align: middle;
     font-size: 14px !important;
+}
+
+.search-result {
+    display: flex;
+    flex-direction: column;
+    margin-left: 179px;
+    max-width: 600px;
+}
+
+.search-result a {
+    text-decoration: none;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.drop-down {
+    display: inline-block;
+    font-size: 20px !important;
+    line-height: 22px !important;
+    width: 12px;
+    margin: 0 3px;
+    color: #202124;
+}
+
+.result-link span {
+    line-height: 22px;
+}
+
+.ads {
+    color: #202124;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.site-name {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    color: #202124;
+}
+
+.ad-button {
+    display: inline-flex;
+    align-items: flex-start;
+    line-height: 22px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.ad-button:hover {
+    cursor: pointer;
+}
+
+.web-slogan {
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding-top: 4px;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1a0dab;
+}
+
+.web-slogan:hover {
+    text-decoration: underline;
+}
+
+.site-caption {
+    display: block;
+    margin: 0;
+    color: #4d5156;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.quick-list {
+    line-height: 22px;
+}
+
+.quick-links {
+    font-size: 14px;
+    color: #1a0dab;
+}
+
+.quick-links:hover {
+    text-decoration: underline;
+}
+
+.spacer:hover {
+    text-decoration: none;
 }
 
 body {
